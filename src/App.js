@@ -1,12 +1,9 @@
 import React from 'react';
-import './App.css';
 
-function App() {
+export default function App() {
   return (
-    <div className='App'>
-      <header className='App-header'>Hi! I'm Sumayyah.</header>
+    <div>
+      <header>Hi! I'm Sumayyah.</header>
     </div>
   );
 }
-
-export default App;
