@@ -55,3 +55,14 @@ table{
   border-collapse:collapse;
   border-spacing:0;
 }
+
+/*-- Global ------------------------------------*/
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  -webkit-font-smoothing: antialiased;
+}
