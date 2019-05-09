@@ -1,9 +1,13 @@
 import React from 'react';
 
+import Title from './components/Title';
+
+import css from './styles/app.module.css';
+
 export default function App() {
   return (
-    <div>
-      <header>Hi! I'm Sumayyah.</header>
-    </div>
+    <main className={css.container}>
+      <Title />
+    </main>
   );
 }
