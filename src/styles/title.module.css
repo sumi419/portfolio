@@ -1,11 +1,15 @@
 .title {
   color: rgba(0, 0, 0, 0.8);
-  font-family: Roboto Mono;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 4.8rem;
-  font-weight: 500;
+  font-weight: 400;
   max-width: 20em;
   margin-bottom: 32px;
 }
+
+/* body {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+} */
 
 .description {
   color: rgba(0, 0, 0, 0.6);
