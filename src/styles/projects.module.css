@@ -1,0 +1,12 @@
+.title {
+  color: rgba(0, 0, 0, 0.6);
+  border-bottom: solid 1px;
+  border-color: rgba(0, 0, 0, 0.2);
+  font-family: Roboto Mono;
+  font-size: 2rem;
+  font-weight: 500;
+  max-width: 20em;
+  margin-top: 100px;
+  padding-bottom: 1rem;
+  width: 100%;
+}
