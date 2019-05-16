@@ -3,7 +3,6 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  max-width: 75%;
 }
 
 .title {
@@ -20,12 +19,22 @@
 
 .projects {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .project {
-  width: 30%;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.2);
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+@media screen and (min-width: 60em) {
+  .project {
+    border: none;
+    padding-top: 4rem;
+    width: 30%;
+  }
 }
 
 .category {
@@ -33,7 +42,6 @@
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 1.5rem;
   font-weight: 500;
-  padding-top: 6rem;
 }
 
 .projectTitle {
@@ -50,13 +58,10 @@
 }
 
 .description {
-  /* border-bottom: solid 1px;
-  border-color: rgba(0, 0, 0, 0.2); */
   color: rgba(0, 0, 0, 0.6);
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 1.5rem;
   font-weight: 500;
   padding-top: 1rem;
-  /* padding-bottom: 6rem; */
   line-height: 1.5;
 }
