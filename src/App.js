@@ -8,10 +8,8 @@ import css from './styles/app.module.css';
 export default function App() {
   return (
     <main className={css.container}>
-      <div>
-        <Title />
-        <Projects />
-      </div>
+      <Title />
+      <Projects />
     </main>
   );
 }
