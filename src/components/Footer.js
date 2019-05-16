@@ -5,7 +5,7 @@ import css from '../styles/footer.module.css';
 export default function Footer() {
   return (
     <div>
-      <ul>
+      <ul className={css.container}>
         <a href='https://www.linkedin.com/in/sumayyahasgar/'>
           <li className={css.link}>LinkedIn</li>
         </a>
