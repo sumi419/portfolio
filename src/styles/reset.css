@@ -63,6 +63,12 @@ table{
 
 html,
 body {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 62.5%;
   -webkit-font-smoothing: antialiased;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
 }
