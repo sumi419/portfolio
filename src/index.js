@@ -4,7 +4,6 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import * as serviceWorker from './services/serviceWorker';
 
-import 'typeface-roboto-mono';
 import './styles/reset.css';
 
 ReactDOM.render(<App />, document.getElementById('root'));
