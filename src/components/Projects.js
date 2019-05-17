@@ -8,7 +8,7 @@ export default function Projects() {
       <h2 className={css.title}>Projects</h2>
       <ul className={css.projects}>
         <li className={css.project}>
-          <p className={css.category}>PERSONAL</p>
+          <p className={css.category}>CAPSTONE</p>
           <a href='https://learnlocker.dev' alt='LearnLocker'>
             <h3 className={css.projectTitle}>LearnLocker</h3>
           </a>
@@ -16,6 +16,9 @@ export default function Projects() {
             A web application designed to keep track of courses and articles in one place and see
             what other users are learning.
           </p>
+          <a href='https://github.com/learneda/labs11_learned_a-FE' alt='LearnLocker'>
+            <span className={css.source}>Source</span>
+          </a>
         </li>
         <li className={css.project}>
           <p className={css.category}>PERSONAL</p>
@@ -26,6 +29,9 @@ export default function Projects() {
             An app where users can search through makeup products across purchasing sites, all in
             one place.
           </p>
+          <a href='https://github.com/sumi419/highlight' alt='Slay-All-Day'>
+            <span className={css.source}>Source</span>
+          </a>
         </li>
         <li className={css.project}>
           <p className={css.category}>PERSONAL</p>
@@ -35,6 +41,9 @@ export default function Projects() {
           <p className={css.description}>
             An app that allows a user to create, update and delete their notes.
           </p>
+          <a href='https://github.com/sumi419/front-end-project-week' alt='Lambda Notes'>
+            <span className={css.source}>Source</span>
+          </a>
         </li>
       </ul>
     </section>
