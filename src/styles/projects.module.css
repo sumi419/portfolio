@@ -59,6 +59,17 @@
   color: rgba(0, 0, 0, 0.6);
   font-size: 1.5rem;
   font-weight: 500;
+  padding-bottom: 1rem;
   padding-top: 1rem;
   line-height: 1.5;
+}
+
+.source {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.source:hover {
+  color: #f3abba;
 }
