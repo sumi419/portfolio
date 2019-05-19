@@ -16,6 +16,9 @@ export default function Projects() {
             A web application designed to keep track of courses and articles in one place and see
             what other users are learning.
           </p>
+          <a href='https://learnlocker.dev' alt='LearnLocker'>
+            <span className={css.source}>View</span>
+          </a>
           <a href='https://github.com/learneda/labs11_learned_a-FE' alt='LearnLocker'>
             <span className={css.source}>Source</span>
           </a>
@@ -29,6 +32,9 @@ export default function Projects() {
             An app where users can search through makeup products across purchasing sites, all in
             one place.
           </p>
+          <a href='http://sumi-makeup.netlify.com' alt='Makeup'>
+            <span className={css.source}>View</span>
+          </a>
           <a href='https://github.com/sumi419/highlight' alt='Slay-All-Day'>
             <span className={css.source}>Source</span>
           </a>
@@ -41,6 +47,9 @@ export default function Projects() {
           <p className={css.description}>
             An app that allows a user to create, update and delete their notes.
           </p>
+          <a href='https://sumi-notes.netlify.com' alt='Lambda Notes'>
+            <span className={css.source}>View</span>
+          </a>
           <a href='https://github.com/sumi419/front-end-project-week' alt='Lambda Notes'>
             <span className={css.source}>Source</span>
           </a>
