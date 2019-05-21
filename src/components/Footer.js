@@ -7,13 +7,22 @@ export default function Footer() {
     <footer className={css.container}>
       <ul className={css.links}>
         <li className={css.link}>
-          <a href='https://www.linkedin.com/in/sumayyahasgar/'>LinkedIn </a>
+          <a
+            href='https://www.linkedin.com/in/sumayyahasgar/'
+            target='_blank'
+            rel='noopener noreferrer'>
+            LinkedIn
+          </a>
         </li>
         <li className={css.link}>
-          <a href='https://github.com/sumi419'>GitHub</a>
+          <a href='https://github.com/sumi419' target='_blank' rel='noopener noreferrer'>
+            GitHub
+          </a>
         </li>
         <li className={css.link}>
-          <a href='mailto:sasgar04@gmail.com'>Email </a>
+          <a href='mailto:sasgar04@gmail.com' target='_blank' rel='noopener noreferrer'>
+            Email
+          </a>
         </li>
       </ul>
     </footer>
