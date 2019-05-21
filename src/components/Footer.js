@@ -4,18 +4,18 @@ import css from '../styles/footer.module.css';
 
 export default function Footer() {
   return (
-    <div>
-      <ul className={css.container}>
-        <a href='https://www.linkedin.com/in/sumayyahasgar/'>
-          <li className={css.link}>LinkedIn</li>
-        </a>
-        <a href='https://github.com/sumi419'>
-          <li className={css.link}>GitHub</li>
-        </a>
-        <a href='mailto:sasgar04@gmail.com'>
-          <li className={css.link}>Email</li>
-        </a>
+    <footer className={css.container}>
+      <ul className={css.links}>
+        <li className={css.link}>
+          <a href='https://www.linkedin.com/in/sumayyahasgar/'>LinkedIn </a>
+        </li>
+        <li className={css.link}>
+          <a href='https://github.com/sumi419'>GitHub</a>
+        </li>
+        <li className={css.link}>
+          <a href='mailto:sasgar04@gmail.com'>Email </a>
+        </li>
       </ul>
-    </div>
+    </footer>
   );
 }
