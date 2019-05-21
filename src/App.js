@@ -14,8 +14,8 @@ export default function App() {
       <main className={css.container}>
         <Title />
         <Projects />
-        <Footer />
       </main>
+      <Footer />
     </>
   );
 }
