@@ -1,4 +1,9 @@
 .container {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.links {
   display: flex;
   flex-direction: column;
 }
@@ -17,16 +22,15 @@
   color: #f3abba;
 }
 
-@media screen and (min-width: 60em) {
-  .container {
-    display: flex;
-    flex-direction: row;
-  }
-}
-
 @media screen and (min-width: 30em) {
   .container {
     padding-top: 4rem;
     padding-bottom: 4rem;
+    width: 80%;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: row;
   }
 }
