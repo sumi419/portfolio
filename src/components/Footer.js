@@ -20,6 +20,11 @@ export default function Footer() {
           </a>
         </li>
         <li className={css.link}>
+          <a href='https://twitter.com/sumayyahasgar' target='_blank' rel='noopener noreferrer'>
+            Twitter
+          </a>
+        </li>
+        <li className={css.link}>
           <a href='mailto:sasgar04@gmail.com' target='_blank' rel='noopener noreferrer'>
             Email
           </a>
