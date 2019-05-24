@@ -1,14 +1,12 @@
 import React from 'react';
 
-import css from '../styles/title.module.css';
-
 export default function Title() {
   return (
-    <section className={css.container}>
-      <h1 className={css.title}>
+    <section className='pb4'>
+      <h1 className='fs24 fs36-t fs48-d pb32'>
         Hi! I'm Sumayyah. Full-stack web developer. Dessert connoisseur.
       </h1>
-      <p className={css.description}>Lambda School graduate</p>
+      <p className='black60 fs16 fs20-td fw500 lh'>Lambda School graduate</p>
     </section>
   );
 }
