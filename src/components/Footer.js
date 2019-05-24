@@ -1,34 +1,18 @@
 import React from 'react';
 
-import css from '../styles/footer.module.css';
+import { links } from '../static/lib/links';
 
 export default function Footer() {
   return (
-    <footer className={css.container}>
-      <ul className={css.links}>
-        <li className={css.link}>
-          <a
-            href='https://www.linkedin.com/in/sumayyahasgar/'
-            target='_blank'
-            rel='noopener noreferrer'>
-            LinkedIn
-          </a>
-        </li>
-        <li className={css.link}>
-          <a href='https://github.com/sumi419' target='_blank' rel='noopener noreferrer'>
-            GitHub
-          </a>
-        </li>
-        <li className={css.link}>
-          <a href='https://twitter.com/sumayyahasgar' target='_blank' rel='noopener noreferrer'>
-            Twitter
-          </a>
-        </li>
-        <li className={css.link}>
-          <a href='mailto:sasgar04@gmail.com' target='_blank' rel='noopener noreferrer'>
-            Email
-          </a>
-        </li>
+    <footer className='m0a pb4 pt4 w90 w80-d'>
+      <ul className='flex-m flex-row'>
+        {links.map((link) => (
+          <li className='mr2-d black60 fs16 pb1 pt1 hover' key={link.name}>
+            <a href={link.href} target='_blank' rel='noopener noreferrer'>
+              {link.name}
+            </a>
+          </li>
+        ))}
       </ul>
     </footer>
   );
