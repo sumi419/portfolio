@@ -5,7 +5,7 @@ import { projects } from '../static/lib/projects';
 export default function Projects() {
   return (
     <section className='pt4'>
-      <h2 className='bb bc20 black60 fs16 fs20-td fw500 pb2'>Projects</h2>
+      <h2 className='bb bc20 black60 fs16 fs20-td fw500 pb2 font-style-2'>Projects</h2>
       <ul className='flex-m flex-d flex-row'>
         {projects.map((project) => (
           <li className='bb b-d bc10 pb4 pt4 w30-d' key={project.title}>
