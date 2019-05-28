@@ -97,6 +97,10 @@ a {
   color: rgba(0, 0, 0, 0.6);
 }
 
+.black80{
+  color: rgba(0, 0, 0, 0.8);
+}
+
 .fs14 {
   font-size: 1.4rem;
 }
