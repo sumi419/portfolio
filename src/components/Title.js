@@ -7,7 +7,22 @@ export default function Title() {
         Hi! I'm Sumayyah. Full-stack web developer. Dessert connoisseur.
       </h1>
       <p className='black60 fs16 fs20-td fw500 lh open-sans'>
-        Benedictine University alumni. Lambda School graduate.
+        <a
+          className='bb pb0_5 hover'
+          href='http://www.ben.edu/'
+          target='_blank'
+          rel='noopener noreferrer'>
+          Benedictine University
+        </a>{' '}
+        alumni.{' '}
+        <a
+          className='bb pb0_5 hover'
+          href='https://lambdaschool.com/'
+          target='_blank'
+          rel='noopener noreferrer'>
+          Lambda School
+        </a>{' '}
+        graduate.
       </p>
     </section>
   );
