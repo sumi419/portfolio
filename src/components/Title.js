@@ -6,7 +6,7 @@ export default function Title() {
       <h1 className='fs24 fs36-t fs48-d pb32'>
         Hi! I'm Sumayyah. Full-stack web developer. Dessert connoisseur.
       </h1>
-      <p className='black60 fs16 fs20-td fw500 lh open-sans'>
+      <p className='black60 fs16 fs20-td lh2 open-sans'>
         <a
           className='bb pb0_5 hover'
           href='http://www.ben.edu/'
