@@ -12,6 +12,7 @@
       "headers": { "cache-control": "s-maxage=31536000,immutable" },
       "dest": "/static/$1"
     },
+    { "src": "/SumayyahAsgarResume.pdf", "dest": "/SumayyahAsgarResume.pdf" },
     { "src": "/favicon.ico", "dest": "/favicon.ico" },
     { "src": "/apple-touch-icon.png", "dest": "/apple-touch-icon.png" },
     { "src": "/safari-pinned-tab.svg", "dest": "/safari-pinned-tab.svg" },
