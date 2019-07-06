@@ -225,14 +225,9 @@ a {
 }
 
 .hover:hover {
-  /* color: #F4ABBA; */
-  color: white
+  color: #F4ABBA;
 }
 
 .open-sans {
   font-family: 'Open Sans', sans-serif;
-}
-
-body {
-  background-image: url("https://sumayyah.dev/pink-scales.png")
 }
