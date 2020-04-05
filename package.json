@@ -12,8 +12,7 @@
     "build": "react-scripts build",
     "postbuild": "react-snap",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "now-build": "react-scripts build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
