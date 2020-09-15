@@ -32,7 +32,7 @@ footer,header,hgroup,menu,nav,section{
   display:block;
 }
 body{
-  background-color: rgba(245,227,229,0.6);
+  background-color: #ffd1d9;
   line-height:1;
 }
 ol,ul{
@@ -224,7 +224,7 @@ a {
 }
 
 .hover:hover {
-  color: #F4ABBA;
+  color: #ff7b81;
 }
 
 .open-sans {
