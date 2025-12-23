@@ -4,7 +4,7 @@ export const projects = [
     title: 'Slay All Day',
     description:
       'An app where users can search through makeup products across purchasing sites, all in one place.',
-    view: 'https://sumi419.github.io/foundation',
+    view: 'https://sumi419.github.io/highlight/',
     source: 'https://github.com/sumi419/highlight'
   },
   {
