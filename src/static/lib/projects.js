@@ -4,8 +4,8 @@ export const projects = [
     title: 'Slay All Day',
     description:
       'An app where users can search through makeup products across purchasing sites, all in one place.',
-    view: 'http://sumi-makeup.netlify.com',
-    source: 'https://sumi419.github.io/foundation'
+    view: 'https://sumi419.github.io/foundation',
+    source: 'https://github.com/sumi419/highlight'
   },
   {
     category: 'personal',
