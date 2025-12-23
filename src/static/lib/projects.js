@@ -11,7 +11,7 @@ export const projects = [
     category: 'personal',
     title: 'Lambda Notes',
     description: 'An app that allows a user to create, update and delete their notes.',
-    view: 'https://sumi-notes.netlify.com',
+    view: 'https://sumi419.github.io/front-end-project-week/',
     source: 'https://github.com/sumi419/front-end-project-week'
   },
   {
