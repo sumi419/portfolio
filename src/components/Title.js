@@ -14,14 +14,14 @@ export default function Title() {
           {' '}
           Benedictine University{' '}
         </a>{' '}
-        alumni. Software Engineer at
+        alum. Software Engineer at
         <a
           className='bb pb0_5 hover'
           href='https://www.bigcommerce.com/'
           target='_blank'
           rel='noopener noreferrer'>
           {' '}
-          Big Commerce.
+          Epsilon.
         </a>
       </p>
     </section>

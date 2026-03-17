@@ -1,24 +1,32 @@
+import styleme from '../img/styleme.png';
+import slay from '../img/slay.png';
+import learnlocker from '../img/learnlocker.png';
+
 export const projects = [
   {
     category: 'personal',
-    title: 'Slay All Day',
+    title: 'Style Me AI',
+    image: styleme,
     description:
-      'An app where users can search through makeup products across purchasing sites, all in one place.',
+      'An AI-powered styling assistant that generates outfit and makeup recommendations based on your closet, the occasion, weather, and personal style.',
+    view: 'https://www.linkedin.com/posts/sumayyahasgar_closetos-doesnt-just-style-your-clothes-activity-7419237844193517568-oaEi?utm_source=share&utm_medium=member_desktop&rcm=ACoAACXbvMgB7GO8PuB_dJdRiJMQD3frfQbQUzA',
+    source: 'https://github.com/sumi419'
+  },
+  {
+    category: 'personal',
+    title: 'Slay All Day',
+    image: slay,
+    description:
+      'A web app that lets users search makeup products across multiple shopping sites in one place.',
     view: 'https://sumi419.github.io/highlight/',
     source: 'https://github.com/sumi419/highlight'
   },
   {
-    category: 'personal',
-    title: 'Lambda Notes',
-    description: 'An app that allows a user to create, update and delete their notes.',
-    view: 'https://sumi419.github.io/front-end-project-week/',
-    source: 'https://github.com/sumi419/front-end-project-week'
-  },
-  {
     category: 'capstone',
     title: 'LearnLocker',
+    image: learnlocker,
     description:
-      'A web application designed to keep track of courses and articles in one place and see what other users are learning.',
+      'A platform that helps users track courses and articles while discovering what others are learning.',
     view: 'https://learnlocker.dev',
     source: 'https://github.com/learneda'
   }
